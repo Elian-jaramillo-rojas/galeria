@@ -1,14 +1,21 @@
 @charset "utf-8";
 
+body{
+    background: url("../img/super.jpg");
+}
+
 
 .grid{
 
     display: grid;
-    h;
+    height:97vh;
     gap: 2em;
-    grid-template-columns: repeat(4,550px);
-    grid-auto-rows: minmax(100px,auto);
+    grid-template-columns: repeat(4,15%);
+    grid-template-rows:repeat(3,30%)  ;
     align-items: stretch;
+    align-content: center;
+    justify-content: center;
+
 }
 
 img {
@@ -18,6 +25,7 @@ img {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    jus
 }
 
 img:hover{
